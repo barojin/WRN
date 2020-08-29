@@ -1,0 +1,49 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"$id": "http://grotto-networking.com/BAWFCmemberApp.schema.json",
+"title": "Bay Area Foiling Club Membership Application Schema",
+"description": "A Schema for submitted membership applications",
+"type": "object",
+"properties": {
+"firstName": {
+"description": "Applicants first name",
+"type": "string",
+"minLength": 1,
+"maxLength": 40
+},
+"lastName": {
+"description": "Applicants last name",
+"type": "string",
+"minLength": 1,
+"maxLength": 40
+},
+"email": {
+"description": "Applicants email",
+"type": "string",
+"format": "email"
+},
+"password": {
+"description": "Applicants password",
+"type": "string",
+"minLength": 8,
+"maxLength": 20
+},
+    "sailInfo": {
+"description": "Applicants sail number or brand",
+"type": "string",
+"maxLength": 50
+},
+"level": {
+"description": "Applicants foiling level",
+"type": "string",
+"enum": ["Never Done It", "Beginner", "Intermediate", "Foils to TI and Back", "Racer"]
+},
+"comments": {
+"description": "Comments or extra info from the applicant",
+"type": "string",
+"maxLength": 400
+}
+},
+    "required": ["firstName", "lastName", "email", "password", "level"],
+"additionalProperties": false
+}

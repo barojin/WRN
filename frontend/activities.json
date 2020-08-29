@@ -1,0 +1,17 @@
+[
+    {"id": 1,
+     "name": "I can do it!",
+    "dates": ["Feb 20th", "March 24th", "etc..." ],
+    "moto":"be a computer"
+    },
+    {"id": 2,
+    "name": "Keep it up~",
+    "dates": ["May 23rd", "June 20th"],
+    "moto":"Run further"
+    },
+    {"id":3,
+    "name": "Hojin Sundays",
+    "dates":["Sundays in july would be perfect"],
+    "moto":"Peace"
+    }
+]
