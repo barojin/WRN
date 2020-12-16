@@ -1,19 +1,24 @@
 # WRN
-file:///Users/hojinnam/Downloads/csueb/651/assignment3/assignment-barojin/States.html
 
-http://csweb01.csueastbay.edu/~ik4256/clubProject/index.html
+## INSTALLATION
+clubServer <br>
+    backend<br>
+npm install request --save   
+npm install express-session --save  
+npm install bcryptjs --save  
+npm install nedb --save  
 
-clubServer
-backend
-npm install request --save
-npm install express-session --save
-npm install bcryptjs --save
-npm install nedb --save
-ReactClub
-frontend
-npm install parcel-bundler --save
-npm install http-proxy-middleware --save
-npm install express --save
-node clubServer.js
-node devProxy.js 
+ReactClubUI<br>
+    frontend<br> 
+npm install parcel-bundler --save  
+npm install http-proxy-middleware --save  
+npm install express --save  
+
+## How to run
+node clubServer.js  
+node devProxy.js   
 http://127.0.0.1:1234/
+
+Do the 'node clubServer.js' in backend, <br>
+Do the 'node devProxy.js' in frontend. <br>
+The website will show up with the address http://127.0.0.1:1234/ on your web browser.
