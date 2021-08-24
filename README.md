@@ -11,7 +11,7 @@ Thus, a admin have eidt buttons for any posts, a user can see edit buttons on th
 
 ## Specification
 ### Dependencies
-- Backend: request, express-session, bycruptjs, nedb. <br>
+- Backend: request, express-session, bycryptjs, nedb. <br>
 - Frontend: parcel-bundler, http-proxy-middleware, express.
 
 ### JS libs:
