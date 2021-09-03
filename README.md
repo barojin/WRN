@@ -7,10 +7,11 @@
 ![login](/images/login.png "This is a login page.")
 
 ## Summary
+This is the blog website.  
 There are three roles such that admin, user, guest.  
-A admin can CRUD the any post in the website.   
-A user can CRUD posts which (user_id in session == user_id in posts DB.). 
-A guest can read posts only.   
+A admin can create, update, delete any post in the website.   
+A user can create, update, delete user's posts in which (user_id in session == user_id in posts Database).  
+A guest can only read published posts.  
 
 The views are divided by the user's role registered in the sign in process.   
 Thus, a admin have eidt buttons for any posts, a user can see edit buttons on the post only the user have made, a guest can't see any edit button in the website. The different veiws are controlled by React rendering according to the session info which is determined by log in.
