@@ -7,7 +7,8 @@
 ![login](/images/login.png "This is a login page.")
 
 ## Summary
-This is the blog website.  
+This is the blog website. 
+Main feature of this website is the role-based user authority. Each role has a different view and edit range. Here is the more detail below.  
 There are three roles such that admin, user, guest.  
 A admin can create, update, delete any post in the website.   
 A user can create, update, delete user's posts in which (user_id in session == user_id in posts Database).  
